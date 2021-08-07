@@ -1,13 +1,11 @@
 import React from 'react';
-import '../styles.css';
 
 const footerStyle = {
     'display': 'flex',
     'justify-content': 'center',
     'background': '#333',
-    'color':'white'
-
-    // 'align': 'center',
+    'color':'white',
+    'align-itmes': 'center'
 };
 
 const aStyle = {

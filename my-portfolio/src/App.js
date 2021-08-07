@@ -1,10 +1,9 @@
 import React from 'react';
-import './styles.css';
 
-import Header from './components/Header';
-import Hero from './components/Hero';
-import MainContent from './components/MainContent';
-import Footer from './components/Footer';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import MainContent from './components/MainContent/MainContent';
+import Footer from './components/Footer/Footer';
 
 function App() {
     return (
