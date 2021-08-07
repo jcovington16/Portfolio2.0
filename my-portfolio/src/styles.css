@@ -1,4 +1,20 @@
-/* .footer {
-    justify-content: center;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-} */
+    min-height: 8vh;
+    background-color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
