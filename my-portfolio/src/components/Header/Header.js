@@ -1,21 +1,27 @@
 import React from 'react';
-import logo from '../../img/logo1.png'
+// import logo from '../../img/logo1.png'
 
 function Header() {
     return (
-        <header>
             <nav>
                 <div className="logo">
-                    <img scr={logo} alt="logo"></img>
+                   <h3>Jcyber</h3>
                 </div>
-                <ul>
-                    <li className="nav-links"><a href="/">Home</a></li>
-                    <li className="nav-links"><a href="/">About</a></li>
-                    <li className="nav-links"><a href="/">Projects</a></li>
-                    <li className="nav-links"><a href="/">Contact</a></li>
+                <ul className="nav-links">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/">About</a>
+                    </li>
+                    <li>
+                        <a href="/">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/">Contact</a>
+                    </li>
                 </ul>
             </nav>
-        </header>
     )
 }
 
