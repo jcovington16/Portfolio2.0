@@ -1,6 +1,22 @@
 import React from 'react';
 // import logo from '../../img/logo1.png'
 
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+    const navLinks = document.querySelectorAll('.nav-links li')
+
+    // Toggle Nav
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+    });
+
+    //Animate Links
+    navLinks.forEach((link) =>{
+        
+    })
+}
+
 function Header() {
     return (
             <nav>
@@ -21,7 +37,7 @@ function Header() {
                         <a href="/">Contact</a>
                     </li>
                 </ul>
-                <div className="burger">
+                <div className="burger" onclick={navSlide}>
                     <div className="line1"></div>
                     <div className="line2"></div>
                     <div className="line3"></div>
