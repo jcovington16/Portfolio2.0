@@ -1,7 +1,7 @@
 import React from 'react'
 
 const heroImg = {
-    'background-image': `url(../img/58084_JCyber_RK_01.jpg')`
+    'backgroundImage': `url(../img/58084_JCyber_RK_01.jpg')`
 }
 
 function Hero() {

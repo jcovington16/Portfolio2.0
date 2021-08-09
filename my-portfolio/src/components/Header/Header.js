@@ -13,9 +13,11 @@ const navSlide = () => {
 
     //Animate Links
     navLinks.forEach((link) =>{
-        
+
     })
 }
+
+//navSlide();
 
 function Header() {
     return (
@@ -37,7 +39,7 @@ function Header() {
                         <a href="/">Contact</a>
                     </li>
                 </ul>
-                <div className="burger" onclick={navSlide}>
+                <div className="burger" onClick={navSlide}>
                     <div className="line1"></div>
                     <div className="line2"></div>
                     <div className="line3"></div>
